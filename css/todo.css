@@ -1,0 +1,32 @@
+.form-container
+{
+    max-width:600px;
+    border:2px solid rgb(63, 248, 12);
+    /* align-items:center; */
+    margin:10px auto;
+    padding:50px;
+    border-radius: 15px;
+    background-color: bisque;
+}
+.container{
+    max-width:600px;
+    margin:10px auto;
+    /* display:flex; */
+    border:2px solid rgb(6, 238, 41);
+    border-radius:15px;
+    /* align-items: center; */
+    padding:50px;
+    background-color: darkgrey;
+}
+.output
+{
+    max-width:600px;
+    margin:10px auto;
+    display:flex;
+    border:2px solid rgb(115, 255, 0);
+    border-radius:15px;
+    align-items: center;
+    padding:50px;
+    color:aquamarine;
+    background-color: honeydew;
+}
