@@ -16,34 +16,31 @@ Welcome to my collection of JavaScript projects! This repository showcases vario
 - [Contributing](#contributing)
 - [License](#license)
 
-## Projects
+# 📝 Note-Taking App
 
-### Sticky Notes App
+A simple and effective note-taking tool to jot down your thoughts and tasks.
 
-A simple web application that allows users to create, edit, and delete sticky notes. It's a handy tool for jotting down quick reminders or ideas.
+![Demo](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
 
-**Features:**
+## 🚀 Features
 
-- Add new notes with custom titles and content.
-- Edit existing notes.
-- Delete notes when they're no longer needed.
+- 📝 Create, edit, and delete notes.
+- 🔍 Search through notes.
+- 💾 Save notes locally.
 
-*Files:*
+## 🛠️ Technologies Used
 
-- `sticknotesapp/`
-  - `index.html`: The main HTML file.
-  - `styles.css`: Styling for the app.
-  - `script.js`: JavaScript functionality.
+- HTML
+- CSS
+- JavaScript
 
-### To-Do List
+## ⚡ Installation
 
-A classic to-do list application to help manage tasks efficiently.
-
-**Features:**
-
-- Add new tasks.
-- Mark tasks as completed.
-- Remove tasks from the list.
+```bash
+git clone https://github.com/GURUPRASATH-OG/note-taking-app.git
+cd note-taking-app
+open index.html
+```
 
 *Files:*
 
