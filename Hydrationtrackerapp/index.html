@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hypdration Tracker 🌊</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Daily Water Intake Tracker 💧</h1>
+        <p>Track your daily water intake and stay hydrated🥤</p>
+        <label for="goal" class="goal-label">
+            Set you Goal:
+        </label>
+        <select name="" id="goal-select"class='goal-select'>
+            <option value="3">3 Glasses</option>
+            <option value="4">4 Glasses</option>
+            <option value="8">8 Glasses</option>
+            <option value="10">10 Glasses</option>
+            <option value="99">99 Glasses</option>
+        </select>
+    <div class="tracker">
+        <div class="water-glasses">
+            <p class="progress-text">0/8</p>
+        </div>
+        <button class="add-water">
+            Drink water
+        </button><button class="reset-water">
+            Reset
+        </button>
+    </div>
+    <div class="popup">
+        <div class="popup-content">
+            <h2>Goal Achieved🎉</h2>
+            <p>You've Reached your daily hydration Goal</p>
+            <button class="close-popup">OK</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steps Tracker App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Step Tracker</h1>
+        <p class="main-descp">Set you daily goal and track your steps!</p>
+        <input type="number" id="goal-input" placeholder="Set your goal">
+        <button id="set-goal">Set Goal</button>
+        <input type="number"  id="step-input" placeholder="Enter steps">
+        <button id="add-step">Add Steps</button>
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar">
+            </div>
+        </div>
+        <p>Goal: <span id="goal-count">10000</span> Steps</p>
+        <p>Total Steps: <span id="step-count">0</span></p>
+        <button id="reset">Reset</button>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Hurray! 🥳</h2>
+            <p>You reach your daily goal!</p>
+            <button id="close-popup">OK</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
