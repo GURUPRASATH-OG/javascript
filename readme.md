@@ -1,4 +1,4 @@
-# JavaScript Projects by Guru Prasath
+# JavaScript Projects
 
 Welcome to my collection of JavaScript projects! This repository showcases various applications and code snippets I've developed to enhance my JavaScript skills.
 
